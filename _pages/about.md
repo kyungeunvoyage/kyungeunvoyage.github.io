@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 
 ---
-Hi:raised_hands: This is Kyungeun Jung!
+Hi:raised_hands: This is Kyungeun Jung(/ˈkjʌŋ.ʊn dʒʌŋ/)!
 
 I am a first year Ph.D Student at [HCI Tech Lab](https://hcitech.org/#), advised by professor Sang Ho Yoon. My experience spans across the domain of haptics, wearable interfaces.
 
