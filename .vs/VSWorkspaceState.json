@@ -1,9 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.github",
     "\\assets",
     "\\assets\\pdf",
+    "\\_bibliography",
     "\\_education",
     "\\_includes",
     "\\_includes\\resume",
@@ -11,6 +11,6 @@
     "\\_news",
     "\\_pages"
   ],
-  "SelectedNode": "\\_news\\announcement_6.md",
+  "SelectedNode": "\\_includes\\selected_papers.html",
   "PreviewInSolutionExplorer": false
 }
