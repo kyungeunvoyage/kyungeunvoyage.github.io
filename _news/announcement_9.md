@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[🏆🎉] My paper 'ChoreoCraft: In-situ Crafting of Choreography in Virtual Reality through Creativity Support Tool' for CHI'25 got Honorable Mention Award! (Top 5%)
+[🏆🎉] My paper ['ChoreoCraft: In-situ Crafting of Choreography in Virtual Reality through Creativity Support Tool'](https://choreocraft.hcitech.org/) for CHI'25 got Honorable Mention Award! (Top 5%)
