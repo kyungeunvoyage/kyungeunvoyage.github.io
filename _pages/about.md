@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 Hi:raised_hands: This is Kyungeun Jung(/ˈkjʌŋ.ʊn dʒʌŋ/)!
 
-I am a second year Ph.D. student at HCI Tech Lab, advised by professor [Sang Ho Yoon](https://sanghoy.com/). My research spans across the domain of haptic interaction, haptic perception and wearable interfaces.
+I am a second year Ph.D. student at HCI Tech Lab, advised by professor [Sang Ho Yoon](https://sanghoy.com/). My research spans across the domain of haptic interaction, haptic perception and wearable interfaces. 
 
 I continuously seek answers especially in Haptics interfaces regarding human ergonomics! Still creating some meaningful questions and answers, and hope to fulfill my research journey with lots of sparkling and creative ideas.
 
