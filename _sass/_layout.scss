@@ -28,8 +28,54 @@ body.sticky-bottom-footer {
 
 // Profile
 .profile {
-  img {
+    /* 1. Flexbox 활성화 */
+    display: flex;
+
+    /* 2. 요소의 순서를 역순으로 변경 (이미지(두 번째 요소)가 왼쪽에 오도록 함) */
+    flex-direction: row-reverse;  /* 👈 핵심 수정 */
+
+    /* 3. 내부 요소들을 상단에 정렬 (가운데 정렬을 원하면 center 유지) */
+    align-items: flex-start;
+
+    /* 4. 전체 텍스트를 왼쪽으로 정렬 (이미지 위치가 바뀌었으므로) */
+    text-align: left;
+
+    /* 이미지와 텍스트가 컨테이너 너비를 모두 사용하도록 함 */
     width: 100%;
+
+  img {
+    /* 이미지 크기를 고정 값으로 지정 (원하는 크기로 조절) */
+    width: 400px;  /* 👈 빨간 박스 이미지의 너비입니다. 원하시는 대로 조절하세요. */
+    height: auto;
+
+    /* 5. 이미지와 텍스트 사이에 여백 추가 (이미지가 왼쪽에 있으므로 margin-left 적용) */
+    margin-left: 2rem;
+    margin-right: 0;   /* 기존 중앙 정렬 마진 해제 */
+
+    flex-shrink: 0;     /* 이미지가 줄어들지 않도록 고정 */
+
+    /* 이미지 스타일 (선택 사항) */
+    border-radius: 5px; /* 모서리를 둥글게 처리 (선택 사항) */
+  }
+}
+
+/* (주의: 이 코드를 적용하려면 HTML 파일에 별도의 텍스트 컨테이너가 없어야 합니다.
+만약 이미지와 텍스트가 별도의 div로 분리되어 있다면, 다음 단계가 필요합니다.) */
+
+@media (max-width: 768px) {
+  .profile {
+    /* 모바일에서는 순서를 다시 원래대로 (텍스트-이미지 순) */
+    flex-direction: column;
+
+    /* 이미지와 텍스트를 가운데 정렬 */
+    align-items: center;
+
+    img {
+      /* 이미지 크기를 모바일 화면에 맞춰 줄임 */
+      width: 80%;
+      margin-left: 0; /* 강제로 추가했던 왼쪽 마진 제거 */
+      margin-top: 1rem;
+    }
   }
 }
 
