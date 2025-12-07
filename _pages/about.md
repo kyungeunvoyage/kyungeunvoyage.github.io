@@ -5,7 +5,7 @@ permalink: /
 subtitle: Ph.D Student in <a href='https://hcitech.org/#'> HCI Tech Lab</a> at KAIST.
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address:
