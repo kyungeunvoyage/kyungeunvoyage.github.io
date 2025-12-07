@@ -28,34 +28,7 @@ body.sticky-bottom-footer {
 
 // Profile
 // Profile
-.profile {
-    display: flex;
-    align-items: flex-start;
-    text-align: left;
-    width: 100%;
 
-    img {
-        width: 400px;
-        height: auto;
-        margin-left: 0;
-        margin-right: 0;
-        flex-shrink: 0;
-        border-radius: 5px;
-    }
-}
-
-@media (max-width: 768px) {
-    .profile {
-        flex-direction: column;
-        align-items: center;
-
-        img {
-            width: 80%;
-            margin-left: 0;
-            margin-top: 1rem;
-        }
-    }
-}
 
 // TODO: redefine content layout.
 
