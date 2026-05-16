@@ -45,3 +45,65 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+
+/*****************************************************************************
+ * Latest news (home about section & /news/)
+ *****************************************************************************/
+
+.news-scroll-panel {
+  margin-top: 0.35rem;
+  padding: 0.85rem 1rem;
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.04);
+  box-shadow:
+    0 4px 14px rgba(0, 0, 0, 0.08),
+    0 1px 3px rgba(0, 0, 0, 0.06);
+
+  .table {
+    margin-bottom: 0;
+  }
+
+  .table-responsive {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+html[data-theme="dark"] .news-scroll-panel {
+  background-color: rgba(255, 255, 255, 0.06);
+  box-shadow:
+    0 4px 18px rgba(0, 0, 0, 0.55),
+    0 1px 4px rgba(0, 0, 0, 0.35);
+}
+
+/* Fixed viewport + scrollbar always reserved / styled (Latest news on home) */
+.news-scroll-panel--scroll {
+  max-height: 300px;
+  overflow-y: scroll;
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  scrollbar-color: var(--global-theme-color) rgba(0, 0, 0, 0.08);
+}
+
+html[data-theme="dark"] .news-scroll-panel--scroll {
+  scrollbar-color: var(--global-theme-color) rgba(255, 255, 255, 0.12);
+}
+
+.news-scroll-panel--scroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+.news-scroll-panel--scroll::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+}
+
+.news-scroll-panel--scroll::-webkit-scrollbar-thumb {
+  background-color: var(--global-theme-color);
+  border-radius: 5px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+html[data-theme="dark"] .news-scroll-panel--scroll::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.08);
+}
