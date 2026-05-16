@@ -6,6 +6,11 @@
 // Dimensions
 $max-content-width: {{ site.max_width }};
 
+// Light mode accent (links, section titles, etc.): green instead of theme default purple.
+// Must be set before `variables` import so `$purple-color: … !default` in _variables.scss does not win.
+$purple-color: #005c1e;
+//change the color to green
+
 @import
   "variables",
   "themes",
