@@ -6,7 +6,7 @@ subtitle: Ph.D. student @ KAIST <a href='https://hcitech.org/#'> HCI Tech Lab</a
 
 profile:
   align: left
-  image: prof_pic.jpg
+  image: main1.jpeg
   image_circular: false # crops the image to make it circular
   address:
 
