@@ -2,7 +2,7 @@
 layout: page
 title: project 1
 description: hi
-img: assets/img/12.jpg
+img: assets/img/1.png
 importance: 1
 category: work
 related_publications: jung2023mo2hap
