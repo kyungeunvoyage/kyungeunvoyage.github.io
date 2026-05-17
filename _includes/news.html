@@ -1,9 +1,29 @@
           <div class="news">
             {% if site.news != blank -%}
             {%- assign news_size = site.news | size -%}
+            {%- assign news = site.news | reverse -%}
+            {% if include.compact %}
+            {%- assign news_limit = include.limit_count | default: 2 | plus: 0 -%}
+            <div class="updates-list">
+              {% for item in news limit: news_limit %}
+                <div class="updates-item">
+                  <div class="updates-date">{{ item.date | date: "%b %Y" }}</div>
+                  <div class="updates-content">
+                    {% if item.inline -%}
+                      {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                    {%- else -%}
+                      <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                    {%- endif %}
+                  </div>
+                </div>
+              {%- endfor %}
+              {% if news_size > news_limit %}
+                <a class="updates-see-all" href="{{ '/news/' | relative_url }}">See All +</a>
+              {% endif %}
+            </div>
+            {% else %}
             <div class="table-responsive" {% if include.limit and site.announcements.scrollable and news_size > 5 %}style="max-height: 300px"{% endif %}>
               <table class="table table-sm table-borderless">
-              {%- assign news = site.news | reverse -%}
               {% if include.limit and site.announcements.limit %}
               {% assign news_limit = site.announcements.limit %}
               {% else %}
@@ -23,6 +43,7 @@
               {%- endfor %}
               </table>
             </div>
+            {% endif %}
           {%- else -%}
             <p>No news so far...</p>
           {%- endif %}

@@ -45,3 +45,52 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+
+/*****************************************************************************
+ * Compact updates on the home page
+ *****************************************************************************/
+
+.updates-heading {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.updates-list {
+  margin-bottom: 2rem;
+}
+
+.updates-item {
+  display: grid;
+  grid-template-columns: 6.5rem minmax(0, 1fr);
+  column-gap: 1.25rem;
+  padding: 0.35rem 0;
+  align-items: baseline;
+}
+
+.updates-date {
+  color: var(--global-text-color);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.updates-content {
+  color: var(--global-text-color);
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.updates-see-all {
+  display: inline-block;
+  margin-top: 0.35rem;
+  color: var(--global-theme-color);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 576px) {
+  .updates-item {
+    grid-template-columns: 1fr;
+    row-gap: 0.1rem;
+  }
+}
