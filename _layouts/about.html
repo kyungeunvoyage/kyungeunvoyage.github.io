@@ -44,7 +44,7 @@ layout: default
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
             <h2 class="updates-heading"><a href="{{ '/news/' | relative_url }}" style="color: inherit;">Updates</a></h2>
-            {%- include news.html compact=true limit_count=2 %}
+            {%- include news.html compact=true limit_count=4 %}
           {%- endif %}
 
           <!-- Latest posts -->
