@@ -20,6 +20,8 @@ Hi, This is Kyungeun Jung(/ˈkjʌŋ.ʊn dʒʌŋ/)!
 
 I am a second year Ph.D. student at HCI Tech Lab, advised by professor [Sang Ho Yoon](https://sanghoy.com/). My research spans across the domain of haptic interaction, haptic perception and wearable interfaces.
 
+Nowadays, I am especially interested in Haptic Perception in periungual area for nail-mounted wearable interface and Adaptive Haptic Interaction to human behavior. 
+
 I continuously seek answers especially in Haptics interfaces regarding human ergonomics! Still creating some meaningful questions and answers, and hope to fulfill my research journey with lots of sparkling and creative ideas.
 
 In my leisure time, I love to explore some sites to walk and enjoy the scenery of [greeny trees 🌳](https://www.instagram.com/littlesalixbabylonica/).
