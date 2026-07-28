@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[💡] I was invited to an IEEE ARM 2026 Workshop on Decoding and Recoding Human Motion in XR: From Immersive Haptic Rendering to Creative Support Tools, part of the Entertainment AI and Interactive Systems track. You can find me [here](https://sites.google.com/view/ieee-arm-workshop-imtis/%E9%A6%96%E9%A1%B5)!
+[💡] I was invited as a guest speaker at the IEEE ARM 2026 Workshop (Entertainment AI and Interactive Systems track) to give a talk titled "Decoding and Recoding Human Motion in XR: From Immersive Haptic Rendering to Creative Support Tools." More details are available [here](https://sites.google.com/view/ieee-arm-workshop-imtis/%E9%A6%96%E9%A1%B5)!
